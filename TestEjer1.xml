@@ -1,0 +1,50 @@
+<list>
+  <constraintNtcc>
+    <varname1>a</varname1>
+    <varConst>10</varConst>
+    <unitTime>1</unitTime>
+    <paramvarx class="JaCoP.core.IntVar">
+      <id>a</id>
+      <index>-1</index>
+      <weight>1</weight>
+    </paramvarx>
+    <constraint class="JaCoP.constraints.XeqC">
+      <queueIndex>0</queueIndex>
+      <numberId>1</numberId>
+      <increaseWeight>true</increaseWeight>
+      <numberArgs>1</numberArgs>
+      <earlyTerminationOK>false</earlyTerminationOK>
+      <atomicExecution>true</atomicExecution>
+      <c>10</c>
+      <x>
+        <id>a</id>
+        <index>-1</index>
+        <weight>1</weight>
+      </x>
+    </constraint>
+  </constraintNtcc>
+  <constraintNtcc>
+    <varname1>b</varname1>
+    <varConst>50</varConst>
+    <unitTime>1</unitTime>
+    <paramvarx class="JaCoP.core.IntVar">
+      <id>b</id>
+      <index>-1</index>
+      <weight>1</weight>
+    </paramvarx>
+    <constraint class="JaCoP.constraints.XeqC">
+      <queueIndex>0</queueIndex>
+      <numberId>2</numberId>
+      <increaseWeight>true</increaseWeight>
+      <numberArgs>1</numberArgs>
+      <earlyTerminationOK>false</earlyTerminationOK>
+      <atomicExecution>true</atomicExecution>
+      <c>50</c>
+      <x>
+        <id>b</id>
+        <index>-1</index>
+        <weight>1</weight>
+      </x>
+    </constraint>
+  </constraintNtcc>
+</list>
